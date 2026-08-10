@@ -5,13 +5,6 @@ Created on Sun Feb 22 21:05:26 2026
 PROYECTO FINAL 
 """
 
-#Horario 615 el martes 10, entrega es el viernes 13
-
-#ENTREGAR: WORD, BASE DE DATOS EN SQL O EXCEL, CODIGO EN TXT Y CODIGO .PY
-
-#Introduccion, desarrollo y conclusion
-#Desarrollo consiste en procesamiento de informacion
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from pandas.api.types import is_numeric_dtype
@@ -52,34 +45,9 @@ def filtro_por_juego(df, ):
     
     return print(df_filtro_por_juego)
 
-#filtro_por_juego(df, )
-
-# def promedio_horas_juego(df):
-#     return df["daily_gaming_hours"].mean()
-
-# # print(promedio_horas_juego(
-# #     filtro_por_juego(df_estudiantes, "League of Legends")))
-
-# # print(promedio_horas_juego(
-# #     filtro_por_juego(df_empleados, "League of Legends")))
-
-
 def promedio_edad(df):
     return print(df["age"].mean())
 
-
-# #Gráficos
-# def distribucion_humor(df, nombre_df):
-#     frecuencia = (df["mood_state"].value_counts().sort_values())
-#     frecuencia.columns = ["mood_state", "frequency"]
-#     plt.figure()
-#     frecuencia.plot(kind="bar")
-#     plt.title(f"Frecuencia de estado de humor con {nombre_df}" )
-#     plt.xlabel("Estado de humor")
-#     plt.ylabel("Frecuencia")
-#     plt.show()
-    
-#     return frecuencia
 
 # Poblacion de participante en cada df
 
